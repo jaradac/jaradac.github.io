@@ -1,10 +1,10 @@
 $(document).ready(function () {
     $(function(){
         $("#profile-card-header").typed({
-            strings: ["Economics Student",
-				"Programmer",
-                "Cat Lover",
-                "Aspiring Data Scientist"
+            strings: ["Estudiante de Economía",
+				"Programador",
+                "Científico de Datos Novato",
+                "Borrego Gen. 2020"
 				
             ],
             typeSpeed: 5,
