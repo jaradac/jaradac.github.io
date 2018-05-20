@@ -10,13 +10,13 @@ body{
     font-size: 13px;
     line-height: 25px;
     /*color: #48a770;*/
-    color: ghostwhite;
+    color: #123C69;
 
     overflow-x: hidden;
     /*padding: 0;*/
 }
-.color-theme-gray{
-    background-color: #262626;
+.color-theme-fondo{
+    background-color: #EEE2DC;
     /*background-color: #f3efe0;*/
 }
 /*h1,h3{*/
@@ -31,20 +31,20 @@ body{
     top: 10%;
     /*margin: -270.5px auto 0 auto;*/
 }
-.orange-text-color{
-    color: #E05F27;
+.dark-text-color{
+    color: #60282e;
 }
 .silver-text-color{
     color: silver;
 }
 .blue-text-color{
-    color: #2F7BDE;
+    color: #123C69;
 }
 .cream-text-color{
-    color: #ffffe6;
+    color: #EEE2DC;
 }
 .white-text-color{
-    color: #1abc9c;
+    color: #60282e;
 }
 
 .no-display{
@@ -106,7 +106,7 @@ body{
 }
 .profile-card-place{
     text-align: center;
-    color: whitesmoke;
+    color: #123C69;
 }
 .profile-card-place > h6{
     font-size: 1.2em;
@@ -135,14 +135,14 @@ body{
 }
 .all-social>a{
     font-size: 32px;
-    color: whitesmoke;;
+    color: #123C69;;
 }
 .para > a{
-    color: #1abc9c;
+    color: #60282e;
 }
 
 .all-social>a:hover{
-    color: #1abc9c;
+    color: #123C69;
 }
 .profile-card-resume{
     text-align: center;
@@ -181,7 +181,7 @@ body{
     height: 100%;
 }
 .tabs>input, .tabs>span {
-    color: #1abc9c;
+    color: #123C69;
     height: 40px;
     position: absolute;
     line-height: 40px;
@@ -211,7 +211,7 @@ body{
 }
 .tabs>input:checked+span, .tabs>input:hover+span {
     /*color: silver;*/
-    color: white;
+    color: #60282e;
     /*background-color: #1f6341; !important;*/
     /*background-color: #635957; !important;*/
 }
@@ -254,7 +254,7 @@ body{
     min-height: 200px;
 }
 .effect .line {
-    background: #3498DB;
+    background: #963e48;
     width: 25%;
     /*width: 33%;*/
     height: 2px;
@@ -307,7 +307,7 @@ body{
 #about-me > p >a{
     /*color: #2F7BDE;*/
     text-decoration: none;
-    border-bottom: 1px solid #1abc9c;
+    border-bottom: 1px solid #60282e;
 }
 .para{
     text-align: center;
@@ -477,7 +477,7 @@ body{
     padding:20px
 }
 ul.filter > li > a {
-    color:#1abc9c;
+    color:#60282e;
     font-size:1.3em;
     line-height:30px;
     background-color: white;
@@ -494,7 +494,7 @@ ul.filter > li > a:hover,ul.filter > li > a:focus {
 }
 ul.filter > li.active a{
     /*color:silver*/
-    background-color: #1abc9c;
+    background-color: #60282e;
     color: ghostwhite;
 }
 ul.filter > li span {
@@ -705,7 +705,15 @@ textarea{
     color: inherit;
 }
 .detail-tail > a:hover{
-    color: ghostwhite;
+    color: #889db4;
+}
+.detail-tailsh{
+    font-size: 1.1em;
+}
+.detail-tailsh > a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: inherit;
 }
 .width-40{
     width: 28%;
